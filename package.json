@@ -1,0 +1,23 @@
+{
+  "name": "rforquickbase",
+  "version": "1.0.0",
+  "description": "rfor quickbase",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rforThomasPiechowiak/rforquickbase.git"
+  },
+  "keywords": [
+    "rfor",
+    "quickbase"
+  ],
+  "author": "'ThomasPiechowiak' <'thomas.piechowiak@rfor.com'> (https://www.rfor.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rforThomasPiechowiak/rforquickbase/issues"
+  },
+  "homepage": "https://github.com/rforThomasPiechowiak/rforquickbase#readme"
+}
