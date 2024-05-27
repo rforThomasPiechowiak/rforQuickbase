@@ -1,6 +1,6 @@
 {
   "name": "rforquickbase",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "rfor quickbase",
   "main": "dist/src/index.js",
   "scripts": {
