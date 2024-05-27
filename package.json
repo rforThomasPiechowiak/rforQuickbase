@@ -1,14 +1,14 @@
 {
   "name": "rforquickbase",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "rfor quickbase",
-  "main": "dist/src/index.js",
+  "main": "dist/index.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
-    "build:umd": "webpack --output-filename index.umd.js --mode development"
+    "build:umd": "webpack --output-filename index.umd.js --mode production"
   },
   "repository": {
     "type": "git",
